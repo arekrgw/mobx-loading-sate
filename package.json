@@ -1,6 +1,6 @@
 {
   "name": "mobx-loading-state",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Loading manager for mobx",
   "main": "dist/index.js",
   "repository": {
@@ -11,7 +11,8 @@
   "author": "arekrgw",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "tsc"
   },
   "devDependencies": {
     "typescript": "^4.2.4"
