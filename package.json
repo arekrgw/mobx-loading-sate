@@ -1,6 +1,6 @@
 {
   "name": "mobx-loading-state",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Loading manager for mobx",
   "main": "dist/index.js",
   "repository": {

@@ -21,6 +21,7 @@ export default new Store()
 // App.js
 import React from 'react';
 import store from './store';
+import { observer } from 'mobx-react';
 
 const fetchFn = async () => {
   try {
@@ -47,4 +48,6 @@ const App = () => {
     {store.loading.is() && <p>Loading...</p>}
   )
 }
+
+export default observer(App);
 ```
