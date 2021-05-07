@@ -3,7 +3,7 @@ import { createAtom } from "mobx";
 export class LoadingState {
   private loadingMap = new Map<string, number>();
   private atom = createAtom("loadingState");
-  private defaultKeyName;
+  private defaultKeyName: string;
 
   constructor(defaultKey?: string) {
     this.atom = createAtom("loadingState");
